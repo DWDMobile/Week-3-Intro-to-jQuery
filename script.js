@@ -1,5 +1,9 @@
 var app = {
     initialize: function() {
+
+        // To do with pure Javascrupt
+        //element.addEventListener("click", function(){ alert("Hello World!"); });
+
         $('.growContent').click(function() {
             $(this).parent().addClass('tall-content');
         });
@@ -13,6 +17,7 @@ var app = {
         $('.js-moveMe').click(function() {
             $(this).addClass('left');
         });
+
     },
 
     changePage: function(id) {
